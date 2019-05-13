@@ -1,4 +1,4 @@
-package com.games.tictactoe;
+package com.games.tictactoe.exception;
 
 
 public class UsedPosition extends Exception {

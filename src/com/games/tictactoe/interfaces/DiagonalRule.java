@@ -1,4 +1,7 @@
-package com.games.tictactoe;
+package com.games.tictactoe.interfaces;
+
+import com.games.tictactoe.Line;
+import com.games.tictactoe.enums.Simbol;
 
 public class DiagonalRule extends Line implements LineRule {
 

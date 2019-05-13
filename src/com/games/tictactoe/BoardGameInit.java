@@ -2,6 +2,10 @@ package com.games.tictactoe;
 
 import java.util.Scanner;
 
+import com.games.tictactoe.enums.Simbol;
+import com.games.tictactoe.exception.InvalidPosition;
+import com.games.tictactoe.exception.UsedPosition;
+
 public class BoardGameInit {
 
 	static Board b = new Board();

@@ -1,5 +1,12 @@
 package com.games.tictactoe;
 
+import com.games.tictactoe.enums.Simbol;
+import com.games.tictactoe.exception.InvalidPosition;
+import com.games.tictactoe.exception.UsedPosition;
+import com.games.tictactoe.interfaces.DiagonalRule;
+import com.games.tictactoe.interfaces.HorizontalRule;
+import com.games.tictactoe.interfaces.VerticalRule;
+
 public class Board {
 
 	private Simbol square[][];

@@ -1,5 +1,8 @@
 package com.games.tictactoe;
 
+import com.games.tictactoe.enums.Simbol;
+import com.games.tictactoe.interfaces.LineRule;
+
 public abstract class Line implements LineRule{
 
 	Line rule;
