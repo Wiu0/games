@@ -1,4 +1,4 @@
-package com.games.hash;
+package com.games.tictactoe;
 
 public abstract class Line implements LineRule{
 

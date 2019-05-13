@@ -1,4 +1,4 @@
-package com.games.hash;
+package com.games.tictactoe;
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ public class BoardGameInit {
 
 	static boolean call(short x, short y) {
 
-		System.out.println("Type EXIT to finish the game. \n");
+		System.out.println("Type EXIT to finish the game.\n");
 		try {
 			b.setSimbol(Simbol.values()[(qttMoves++ % 2) + 1], x, y);
 		} catch (NumberFormatException e) {

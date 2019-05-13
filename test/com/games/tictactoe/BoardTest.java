@@ -1,4 +1,9 @@
-package com.games.hash;
+package com.games.tictactoe;
+
+import com.games.tictactoe.Board;
+import com.games.tictactoe.InvalidPosition;
+import com.games.tictactoe.Simbol;
+import com.games.tictactoe.UsedPosition;
 
 public class BoardTest {
 

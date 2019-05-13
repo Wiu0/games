@@ -1,4 +1,4 @@
-package com.games.hash;
+package com.games.tictactoe;
 
 public class VerticalRule extends Line implements LineRule {
 
